@@ -1,7 +1,1 @@
 ﻿# Curso-Guatemaltek
-
-docker run --rm -v ${PWD}:/local openapitools/openapi-generator-cli generate \
-  -i http://host.docker.internal:8080/SEMP/v2/action/spec \
-  -g java \
-  -o /local/semp-action-client \
-  -p groupId=com.solace,artifactId=solace-semp-action-java-client,artifactVersion=2.39.0
